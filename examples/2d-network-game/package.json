@@ -1,0 +1,14 @@
+{
+  "name": "lantern-2d-network-game",
+  "version": "1.0.0",
+  "description": "Simple 2D network game with movable players and synchronized coordinates",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.5"
+  }
+}
